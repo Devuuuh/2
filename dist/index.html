@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Discover a fictional alternate life across six parallel universes." />
+    <title>Parallel Universe Scanner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Orbitron:wght@500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="starfield" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+    <main id="app" aria-live="polite"></main>
+    <template id="landing-template">
+      <section class="screen landing active">
+        <div class="corner top-left"></div><div class="corner top-right"></div><div class="corner bottom-left"></div><div class="corner bottom-right"></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="earth-mini"><div class="earth-glow"></div><span>◒</span></div>
+        <div class="landing-content">
+          <p class="eyebrow"><i></i> DIMENSIONAL ACCESS TERMINAL · 09</p>
+          <h1>PARALLEL<br /><em>UNIVERSE</em><br />SCANNER</h1>
+          <p class="tagline">One person. Infinite realities.</p>
+          <p class="lead">Discover who you could be in another universe.</p>
+          <button class="button primary" data-action="scan"><span>SCAN ME</span><b>↗</b></button>
+          <p class="privacy">CAMERA INPUT IS EPHEMERAL · NOTHING IS SAVED</p>
+        </div>
+        <div class="coordinates">34° 12' 08.6" N &nbsp; / &nbsp; REALITY LAYER 01</div>
+      </section>
+    </template>
+    <script src="javascript/universe-data.js"></script>
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
