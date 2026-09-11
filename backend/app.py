@@ -1,4 +1,4 @@
-"""Local Flask API for Parallel Universe Scanner. Camera frames are never received or stored."""
+"""Local Flask API for Oops! Another Universe. Camera frames are never received or stored."""
 from flask import Flask, jsonify, send_from_directory
 from pathlib import Path
 
